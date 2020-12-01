@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav__black{
+    background-color: #111;
+}
+.nav__logo{
+    width: 80px;
+    object-fit: contain;
+}
+.nav__button{
+    width: 70px;
+}
+button{ 
+    height: 30px; 
+    margin-right: 10px;
+    margin-top: 10px;
+    border:none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
